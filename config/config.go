@@ -27,5 +27,4 @@ func LoadEnv(a *AppConfig) {
 	a.DbUser = os.Getenv("DB_USER")
 	a.DbPassword = os.Getenv("DB_PASSWORD")
 	a.DbHost = os.Getenv("DB_HOST")
-
 }
